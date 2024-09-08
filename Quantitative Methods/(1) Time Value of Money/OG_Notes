@@ -1,1 +1,39 @@
+3 Ways to interpret interest rates:
+  1) Rates of return investors need to receive to accept investment
+  2) Discount rate - used to find value of future number of money today
+  3) Opportunity cost - a value forgone when choosing particular course of action (e.g.: n dollars spent today is at an opportunity cost of earning r% of it in a year)
 
+Interest rate [r] = Real risk-free interest rate + Inflation premium + Default risk premium + Liquidity premium + Maturity premium
+
+  1) Real risk-free interest rate - single-perio interest rate for a completely risk-free security if no inflation is expected (reflects time preferences of current vs future real consumption)
+  2) Inflation premium - compensated for expected inflation (reflects expected average inflation rate over maturity of the debt, RRF Interest rate + Inflation premium = Nominal risk-free interest rate)
+  3) Default risk premium - compensated for the possibility of borrower failing to pay at the contracted time and in the contracted amount
+  4) Liquidity risk premium - compensated for the risk of loss of value due to investment being required to be converted to cash quickly (T-Bills can be bought/sold with no effect on market price so it doesnt have it)
+  5) Maturity premium - compensated for the sensitivity of investment value due to changes in market interest rates throughout the maturity period
+
+Present and Future Values:
+  FV_N = PV(1+r)^N 
+
+    FV_N - Future Value of the Investment after N periods of time passed
+    PV - Present Value of the Investment
+    r - interest rate compounded over the unit time (must be consistent with N)
+    N - period of time passed
+
+A timeline can be used to illustrate relationship between value of the money and time:
+
+t: 0--------------------------------------------------------------------------------N-->
+Value:  PV                                                                 FV_N = PV(1+r)^N
+
+Non-Annual Compounding Interest Rate:
+  FV_N = PV(1+r_s/m)^mN
+
+    FV_N - Future Value of the Investment after N periods of time passed
+    PV - Present Value of the Investment
+    r_s - stated annual interest rate
+    N - number of years
+    m - number of compounding periods per year
+
+  Stated interest rate is stated by bank, if stated monthly interest rate is 8%, then stated interest rate per annum is 0.08*12 = 0.67%, however (1+0.0067)^12 = 1.083 != 1.08
+
+Continuous Compounding:
+    
