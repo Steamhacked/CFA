@@ -27,7 +27,7 @@ Value:  PV                                                                 FV_N 
 Non-Annual Compounding Interest Rate:
   FV_N = PV(1+r_s/m)^mN
 
-    FV_N - Future Value of the Investment after N periods of time passed
+    FV_N - Future Value of the Investment after N years passed
     PV - Present Value of the Investment
     r_s - stated annual interest rate
     N - number of years
@@ -36,4 +36,17 @@ Non-Annual Compounding Interest Rate:
   Stated interest rate is stated by bank, if stated monthly interest rate is 8%, then stated interest rate per annum is 0.08*12 = 0.67%, however (1+0.0067)^12 = 1.083 != 1.08
 
 Continuous Compounding:
+  FV_N = PV*e^(r_sN)
+
+    FV_N - Future Value of the Investment after N periods of time passed
+    PV - Present Value of the Investment
+    r_s - stated annual interest rate
+    N - number of years
+
+  When interest is compounded infinitely, it is said to be compounded continuously, the value of m becomes infinite which approximates lim m->inf (1+const./m)^m = e
+
+Stated vs Effective rates:
+
+  Effective Annual Rate = (1 + Periodic Interest Rate)^m - 1 = e^r_s - 1
+
     
