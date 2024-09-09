@@ -49,4 +49,11 @@ Stated vs Effective rates:
 
   Effective Annual Rate = (1 + Periodic Interest Rate)^m - 1 = e^r_s - 1
 
+Series of Cash Flows:
+  Annuity - finite set of level sequential cash flows
+  Ordinary annuity - has a first cash flow occuring one period from now (at t = 1)
+  Annuity due - has a first cash flow occuring immediately (at t = 1)
+  Perpetuity - perpetual annuity, a set of never-ending sequential cash flows, with first cash flow occuring one period from now
+
+
     
