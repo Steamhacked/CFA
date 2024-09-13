@@ -55,5 +55,33 @@ Series of Cash Flows:
   Annuity due - has a first cash flow occuring immediately (at t = 1)
   Perpetuity - perpetual annuity, a set of never-ending sequential cash flows, with first cash flow occuring one period from now
 
+  FV_N = A[((1+r)^N)-1]/r
 
+  [((1+r)^N)-1]/r -> Annuity Factor
+      
+    FV_N - Future Value of the Investment after N periods of time passed
+    A - annuity amount
+    r - interest rate per period
     
+With unequal cash flows, calculate future value of each cash flow and find the sum
+
+Present value:
+
+  PV = FV_N(1+r)^-N
+  If total number of periods = 10, then N = 10 for present value, N = 6 for value in 4 years from now
+
+Non-Annual Compounding Present value:
+
+  PV = FV_N(1+r_S/m)^-mN
+
+    N - Number of years
+    m - number of compounding periods per year
+    r_s - quoted annual interest rate
+
+Present Value of Series of Equal Cash Flows:
+
+  PV = A [(1-(1+r)^-N)/r]
+
+  A - constant annuity amount
+  r - interest rate per period corresponding to the frequency of annuity payments
+  N - number of annuity payments
