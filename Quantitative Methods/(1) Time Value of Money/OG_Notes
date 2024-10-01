@@ -85,3 +85,13 @@ Present Value of Series of Equal Cash Flows:
   A - constant annuity amount
   r - interest rate per period corresponding to the frequency of annuity payments
   N - number of annuity payments
+
+Present Value of Series of Unequal Cash Flows:
+
+  Find present value of each individual cash flow, then sum up
+
+Present Value of a Pepetuity:
+
+  PV = A * sum t=1 -> inf [1/(1+r)^t]
+  When r is positive -> the series converge to PV = A/r
+
